@@ -6,66 +6,67 @@
 
 @layer base {
   :root {
-    --background: 248 250 252;
-    --foreground: 15 23 42;
+    /* Yellow/Lime Theme from Screenshot */
+    --background: 60 100 50; /* Bright yellow-green background */
+    --foreground: 30 20 10; /* Dark brown text */
 
     --card: 255 255 255;
-    --card-foreground: 15 23 42;
+    --card-foreground: 30 20 10;
 
     --popover: 255 255 255;
-    --popover-foreground: 15 23 42;
+    --popover-foreground: 30 20 10;
 
-    /* Paige's Office Brand Colors - Modern Blue Theme */
-    --primary: 0 123 255; /* Bright modern blue */
+    /* Paige's Office Brand Colors - Yellow/Brown Theme */
+    --primary: 200 80 30; /* Blue accent from screenshot */
     --primary-foreground: 255 255 255;
-    --primary-hover: 0 86 204;
+    --primary-hover: 200 70 25;
 
-    --secondary: 108 117 125;
+    --secondary: 40 30 20;
     --secondary-foreground: 255 255 255;
 
-    --muted: 248 249 250;
-    --muted-foreground: 108 117 125;
+    --muted: 55 95 45;
+    --muted-foreground: 35 25 15;
 
-    --accent: 40 167 69; /* Success green */
+    --accent: 180 70 40; /* Cyan blue from screenshot */
     --accent-foreground: 255 255 255;
 
-    --destructive: 220 53 69;
+    --destructive: 0 70 50;
     --destructive-foreground: 255 255 255;
 
-    --warning: 255 193 7;
-    --warning-foreground: 33 37 41;
+    --warning: 45 90 50;
+    --warning-foreground: 30 20 10;
 
-    --border: 222 226 230;
-    --input: 222 226 230;
-    --ring: 0 123 255;
+    --border: 50 85 40;
+    --input: 255 255 255;
+    --ring: 200 80 30;
 
     --radius: 0.75rem;
 
     /* Status Colors */
-    --status-pending: 255 193 7;
-    --status-paid: 40 167 69;
-    --status-overdue: 220 53 69;
-    --status-processing: 0 123 255;
+    --status-pending: 45 90 50;
+    --status-paid: 120 70 40;
+    --status-overdue: 0 70 50;
+    --status-processing: 200 80 30;
 
-    /* Modern Gradients */
+    /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-hover)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(25 135 84));
-    --gradient-card: linear-gradient(145deg, hsl(255 255 255), hsl(248 249 250));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(180 60 35));
+    --gradient-card: linear-gradient(145deg, hsl(255 255 255), hsl(55 90 45));
 
-    /* Enhanced Shadows */
-    --shadow-card: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 8px -1px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
-    --shadow-xl: 0 20px 40px -4px rgba(0, 0, 0, 0.1), 0 8px 16px -4px rgba(0, 0, 0, 0.06);
+    /* Shadows */
+    --shadow-card: 0 2px 4px -1px rgba(0, 0, 0, 0.1), 0 4px 8px -1px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.15), 0 4px 12px -2px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 40px -4px rgba(0, 0, 0, 0.15), 0 8px 16px -4px rgba(0, 0, 0, 0.1);
 
-    /* Sidebar - Dark Modern Theme */
-    --sidebar-background: 33 37 41;
-    --sidebar-foreground: 173 181 189;
-    --sidebar-primary: 0 123 255;
+    /* Sidebar - Brown Theme from Screenshot */
+    --sidebar-background: 30 40 25; /* Rich brown from screenshot */
+    --sidebar-foreground: 30 30 70; /* Light brown text */
+    --sidebar-primary: 180 70 50; /* Cyan accent */
     --sidebar-primary-foreground: 255 255 255;
-    --sidebar-accent: 52 58 64;
-    --sidebar-accent-foreground: 248 249 250;
-    --sidebar-border: 52 58 64;
-    --sidebar-ring: 0 123 255;
+    --sidebar-accent: 25 35 20;
+    --sidebar-accent-foreground: 255 255 255;
+    --sidebar-border: 25 35 20;
+    --sidebar-ring: 180 70 50;
   }
 
   .dark {
