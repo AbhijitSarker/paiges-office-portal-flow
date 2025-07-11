@@ -15,55 +15,57 @@
     --popover: 255 255 255;
     --popover-foreground: 15 23 42;
 
-    /* Paige's Office Brand Colors */
-    --primary: 59 130 246; /* Blue from logo */
+    /* Paige's Office Brand Colors - Modern Blue Theme */
+    --primary: 0 123 255; /* Bright modern blue */
     --primary-foreground: 255 255 255;
-    --primary-hover: 37 99 235;
+    --primary-hover: 0 86 204;
 
-    --secondary: 148 163 184;
-    --secondary-foreground: 15 23 42;
+    --secondary: 108 117 125;
+    --secondary-foreground: 255 255 255;
 
-    --muted: 248 250 252;
-    --muted-foreground: 100 116 139;
+    --muted: 248 249 250;
+    --muted-foreground: 108 117 125;
 
-    --accent: 34 197 94; /* Success green */
+    --accent: 40 167 69; /* Success green */
     --accent-foreground: 255 255 255;
 
-    --destructive: 239 68 68;
+    --destructive: 220 53 69;
     --destructive-foreground: 255 255 255;
 
-    --warning: 245 158 11;
-    --warning-foreground: 255 255 255;
+    --warning: 255 193 7;
+    --warning-foreground: 33 37 41;
 
-    --border: 226 232 240;
-    --input: 226 232 240;
-    --ring: 59 130 246;
+    --border: 222 226 230;
+    --input: 222 226 230;
+    --ring: 0 123 255;
 
     --radius: 0.75rem;
 
     /* Status Colors */
-    --status-pending: 245 158 11;
-    --status-paid: 34 197 94;
-    --status-overdue: 239 68 68;
-    --status-processing: 59 130 246;
+    --status-pending: 255 193 7;
+    --status-paid: 40 167 69;
+    --status-overdue: 220 53 69;
+    --status-processing: 0 123 255;
 
-    /* Gradient */
+    /* Modern Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-hover)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(34 197 84));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(25 135 84));
+    --gradient-card: linear-gradient(145deg, hsl(255 255 255), hsl(248 249 250));
 
-    /* Shadows */
-    --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* Enhanced Shadows */
+    --shadow-card: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 8px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 40px -4px rgba(0, 0, 0, 0.1), 0 8px 16px -4px rgba(0, 0, 0, 0.06);
 
-    /* Sidebar */
-    --sidebar-background: 255 255 255;
-    --sidebar-foreground: 71 85 105;
-    --sidebar-primary: 59 130 246;
+    /* Sidebar - Dark Modern Theme */
+    --sidebar-background: 33 37 41;
+    --sidebar-foreground: 173 181 189;
+    --sidebar-primary: 0 123 255;
     --sidebar-primary-foreground: 255 255 255;
-    --sidebar-accent: 248 250 252;
-    --sidebar-accent-foreground: 15 23 42;
-    --sidebar-border: 226 232 240;
-    --sidebar-ring: 59 130 246;
+    --sidebar-accent: 52 58 64;
+    --sidebar-accent-foreground: 248 249 250;
+    --sidebar-border: 52 58 64;
+    --sidebar-ring: 0 123 255;
   }
 
   .dark {
